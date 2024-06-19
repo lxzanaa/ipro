@@ -1386,6 +1386,10 @@ body{
   --tw-content: '';
   content: var(--tw-content);
 }
+.after\:content-\[\'EMPLOYEES\'\]::after{
+  --tw-content: 'EMPLOYEES';
+  content: var(--tw-content);
+}
 .after\:content-\[\'News\'\]::after{
   --tw-content: 'News';
   content: var(--tw-content);
@@ -1414,10 +1418,6 @@ body{
   --tw-content: 'Yangiliklar';
   content: var(--tw-content);
 }
-.after\:content-\[\'employees\'\]::after{
-  --tw-content: 'employees';
-  content: var(--tw-content);
-}
 .after\:content-\[\'hodimlar\'\]::after{
   --tw-content: 'hodimlar';
   content: var(--tw-content);
@@ -1430,16 +1430,16 @@ body{
   --tw-content: 'НОВОСТИ';
   content: var(--tw-content);
 }
+.after\:content-\[\'\41F\43E\440\442\444\43E\43B\438\43E\'\]::after{
+  --tw-content: 'Портфолио';
+  content: var(--tw-content);
+}
 .after\:content-\[\'\423\421\41B\423\413\418\'\]::after{
   --tw-content: 'УСЛУГИ';
   content: var(--tw-content);
 }
 .after\:content-\[\'\441\43E\442\440\443\434\43D\438\43A\438\'\]::after{
   --tw-content: 'сотрудники';
-  content: var(--tw-content);
-}
-.after\:content-\[\'EMPLOYEES\'\]::after{
-  --tw-content: 'EMPLOYEES';
   content: var(--tw-content);
 }
 .hover\:border-\[\#0086EE\]:hover{
