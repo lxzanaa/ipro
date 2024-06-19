@@ -1386,8 +1386,8 @@ body{
   --tw-content: '';
   content: var(--tw-content);
 }
-.after\:content-\[\'NEWS\'\]::after{
-  --tw-content: 'NEWS';
+.after\:content-\[\'News\'\]::after{
+  --tw-content: 'News';
   content: var(--tw-content);
 }
 .after\:content-\[\'Porfolio\'\]::after{
@@ -1436,6 +1436,10 @@ body{
 }
 .after\:content-\[\'\441\43E\442\440\443\434\43D\438\43A\438\'\]::after{
   --tw-content: 'сотрудники';
+  content: var(--tw-content);
+}
+.after\:content-\[\'EMPLOYEES\'\]::after{
+  --tw-content: 'EMPLOYEES';
   content: var(--tw-content);
 }
 .hover\:border-\[\#0086EE\]:hover{
